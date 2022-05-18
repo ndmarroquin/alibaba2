@@ -1,0 +1,62 @@
+.section-login{
+    max-width:100rem;
+    height: 55rem;
+    border-radius: 0.3rem;
+    margin: auto;
+    margin-top: 5rem;
+    display: none;
+}
+.section-login_banner {
+    max-width: 50rem;
+    height: 100%;
+}
+
+.form-login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login h2 {
+    font-size: 5rem;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.form-login label {
+    font-size: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-login input {
+    width: 30rem;
+    height: 3rem;
+    outline: none;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 0.3rem;
+    padding: 0 1rem;
+}
+.boton{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 3px;
+    background-color: #4F4D8C;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.boton:hover{
+    background-color: #4F4D8C;
+    transition: 0.3s;
+}
